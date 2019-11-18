@@ -1,0 +1,22 @@
+{
+  "name": "ioc-di",
+  "version": "1.0.0",
+  "description": "Dependency Injection",
+  "main": "bin/src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "Gaurav Mahto",
+  "license": "MIT",
+  "dependencies": {
+    "app-module-path": "2.2.0",
+    "inversify": "5.0.1",
+    "reflect-metadata": "0.1.13"
+  },
+  "devDependencies": {
+    "@types/node": "12.12.8",
+    "tslint": "5.20.1",
+    "tslint-eslint-rules": "5.4.0"
+  }
+}
